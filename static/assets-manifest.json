@@ -1,0 +1,35 @@
+{
+  "images": [
+    "coat-of-arms.webp",
+    "coronation-1238.webp",
+    "currency.webp",
+    "daily-life.webp",
+    "football-team-2026.webp",
+    "hero-velegrad-golden-hour.webp",
+    "king-miroslav-iv.webp",
+    "king-velislav-i.webp",
+    "liberation-1944.webp",
+    "meeting-macron.webp",
+    "meeting-putin.webp",
+    "meeting-trump.webp",
+    "morinsk-harbor.webp",
+    "port-charter-1492.webp",
+    "rural-countryside.webp",
+    "sejm-session.webp",
+    "svetobor-panorama.webp",
+    "three-fires-festival.webp",
+    "velegrad-landmarks.webp",
+    "velegrad-map-vintage.webp",
+    "velegrad-map.webp",
+    "velegrad-night.webp",
+    "velislavia-infographic.webp",
+    "velislavia-map-atlas.webp",
+    "velislavia-map-detailed.webp"
+  ],
+  "audio": [
+    "anthem-notes.txt",
+    "anthem.mid",
+    "baltiyskiy-grom.mp3"
+  ],
+  "note": "Web-optimized copies of all unique visual resources generated in the Velislavia project."
+}
