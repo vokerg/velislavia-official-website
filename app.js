@@ -1,3 +1,17 @@
+// The repository stores optimized WebP copies of the visual archive.
+// Keep legacy .png references in the document readable while resolving them
+// to the actual static files before the interactive features are used.
+document.querySelectorAll('img[src$=".png"]').forEach(image => {
+  image.src = image.src.replace(/\.png$/i, ".webp");
+});
+document.querySelectorAll('[data-open-image$=".png"]').forEach(element => {
+  element.dataset.openImage = element.dataset.openImage.replace(/\.png$/i, ".webp");
+});
+document.querySelectorAll('link[href$=".png"]').forEach(link => {
+  link.href = link.href.replace(/\.png$/i, ".webp");
+});
+document.querySelectorAll('a[href$="anthem-demo.wav"]').forEach(link => link.remove());
+
 const header = document.querySelector(".site-header");
 const menuButton = document.querySelector(".menu-toggle");
 const nav = document.querySelector(".main-nav");
